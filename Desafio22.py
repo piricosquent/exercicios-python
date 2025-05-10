@@ -1,0 +1,8 @@
+nome = str(input('Nome completo:')).strip()
+nome_maiusculo = nome.upper()
+nome_minusculo = nome.lower()
+letras = len(nome) - nome.count(' ')
+letras_primeiro_nome = nome.split( )
+print('Nome maiusculo:{}.\nNome minusculo: {}.'.format(nome_maiusculo, nome_minusculo))
+print('Nº de letras: {}'.format(letras))
+print(len(letras_primeiro_nome[0]))
